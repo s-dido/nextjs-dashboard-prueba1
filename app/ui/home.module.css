@@ -1,0 +1,16 @@
+.fondo{
+    background-image: url('/public/hero-desktop.webp');
+    width:auto;
+    height: auto;
+}
+.shape{
+    height: 0px;
+    width: 0px;
+    margin-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+
+
+

@@ -1,3 +1,7 @@
+import '@/app/ui/global.css';
+import { inter } from './ui/fonts';
+import Image from 'next/image';
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className} antialliased`}>{children}</body>
     </html>
   );
 }
